@@ -31,11 +31,14 @@ db.mongoose
   });
 
 // simple route
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to noemilemonnier application." });
-});
+//app.get("/", (req, res) => {
+//  res.send("Hello World!")
+//});
 
-require("./app/routes/pubquiz.routes")(app);
+
+require("./app/routes/question.routes")(app);
+require('./app/routes/team.routes')(app);
+
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;

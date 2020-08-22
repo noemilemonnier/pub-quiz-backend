@@ -9,9 +9,6 @@ module.exports = app => {
     // Retrieve all teams
     router.get("/", teams.findAll);
   
-    // Retrieve all published teams
-    router.get("/published", teams.findAllPublished);
-  
     // Retrieve a single team with id
     router.get("/:id", teams.findOne);
   
@@ -21,8 +18,8 @@ module.exports = app => {
     // Delete a team with id
     router.delete("/:id", teams.delete);
   
-    // Create a new team
+    // Remove all teams
     router.delete("/", teams.deleteAll);
   
-    app.use('/api/teams', router);
+    app.use('/teams', router);
   };

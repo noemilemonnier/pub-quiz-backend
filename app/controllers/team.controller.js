@@ -31,10 +31,6 @@ exports.deleteAll = (req, res) => {
   
 };
 
-// Find all published teams
-exports.findAllPublished = (req, res) => {
-  
-};
 
 //To create
 exports.create = (req, res) => {
@@ -161,4 +157,4 @@ exports.create = (req, res) => {
             err.message || "Some error occurred while removing all teams."
         });
       });
-  };
+};
