@@ -1,3 +1,8 @@
+/*
+* This page is to state all the possible routes for the Question
+* author: @noemilemonnier
+*/
+
 module.exports = app => {
     const questions = require("../controllers/question.controller");
   
@@ -6,7 +11,7 @@ module.exports = app => {
     // Create a new question
     router.post("/", questions.create);
   
-    // Retrieve all questions
+    // Retrieve all questions or name
     router.get("/", questions.findAll);
   
     // Retrieve a single questions with id

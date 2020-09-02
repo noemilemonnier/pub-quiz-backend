@@ -1,3 +1,9 @@
+/*
+* This page is to set all the methods for the Questions of the quiz
+* author: @noemilemonnier
+*/
+
+
 const db = require("../models");
 const Question = db.question;
 
@@ -86,7 +92,10 @@ exports.create = (req, res) => {
       .then(data => {
         if (!data)
           res.status(404).send({ message: "Not found question with id " + id });
-        else res.send(data);
+        else {
+          console.log(data);
+          res.send(data);
+        }
       })
       .catch(err => {
         res
