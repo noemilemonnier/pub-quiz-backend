@@ -7,6 +7,15 @@ Frontend coding inspired by these tutorials:
 https://bezkoder.com/react-node-express-mongodb-mern-stack/	
 https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
 
+
+
+HOW TO SET UP:
+Open Terminal 
+Go to the folder
+Write "npm start"
+
+
+
 API PATHS:	
 FOR USERS	
 Retrieve all users:       GET + http://localhost:8080/auth/	
