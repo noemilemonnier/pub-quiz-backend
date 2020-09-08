@@ -12,7 +12,7 @@ https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-j
 HOW TO SET UP:
 Open Terminal 
 Go to the folder
-Write npm install joi express mongoose jsonwebtoken bcrypt --save
+Write npm install config joi express mongoose jsonwebtoken bcrypt --save
 Write "npm start"
 
 
