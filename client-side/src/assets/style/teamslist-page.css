@@ -1,0 +1,18 @@
+#title {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 2em;
+    padding: 1em;
+  }
+
+  #pq-title{
+    color: rgb(40, 172, 227);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 1.5em;
+  }
+
+  #pq-cohost{
+    color: rgb(227, 31, 132);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 1.5em;
+  }

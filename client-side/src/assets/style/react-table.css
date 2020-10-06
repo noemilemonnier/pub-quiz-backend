@@ -1,0 +1,25 @@
+
+#teamslist {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#teamslist td, #teamslist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#teamslist tr:nth-child(even){background-color: #f2f2f2;}
+
+#teamslist tr:hover {background-color: #ddd;}
+
+#teamslist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(139, 184, 88);
+  color: white;
+}
